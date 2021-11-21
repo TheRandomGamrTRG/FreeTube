@@ -2,23 +2,23 @@
  <img src="https://docs.freetubeapp.io/images/logoColor.png" width=500 align="center">
 </p>
 
-FreeTube is an open source desktop YouTube player built with privacy in mind.
+This is a fork ofFreeTube, an open source desktop YouTube player built with privacy in mind.
 Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
 Available for Windows, Mac & Linux thanks to Electron.
 
-Please note that FreeTube is currently in Beta. While it should work well for
+Please note that FreeTube is currently in Beta, and this fork is in Alpha. While it should work well for
 most users, there are still bugs and missing features that need to be
 addressed.
 
-[Download FreeTube](https://github.com/FreeTubeApp/FreeTube/releases)
+[Download Original FreeTube](https://github.com/FreeTubeApp/FreeTube/releases)
 
 ### Browser Extension
 
-FreeTube is supported by the [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect) extension, which will allow you to open YouTube links into FreeTube. You must enable the option within the advanced settings for it to work.
+FreeTube (and tis fork by extension) is supported by the [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect) extension, which will allow you to open YouTube links into FreeTube. You must enable the option within the advanced settings for it to work.
 
 Download Privacy Redirect for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/) or [Google Chrome](https://chrome.google.com/webstore/detail/privacy-redirect/pmcmeagblkinmogikoikkdjiligflglb).
 
-If you have issues with the extension working with FreeTube, please create an issue in this repository instead of the extension repository.
+If you have issues with the extension working with FreeTube, please create an issue in the main FreeTube repository instead of the extension repository.
 
 ## How does it work?
 FreeTube uses a built in extractor to grab and serve data / videos.  The [Invidious API](https://github.com/iv-org/invidious) can also optionally be used.  FreeTube does not use any official APIs to obtain data.  While YouTube can still see your video requests, it can no
@@ -62,12 +62,6 @@ Chocolatey: [Download](https://chocolatey.org/packages/freetube/)
 
 Windows Portable: [Download](https://github.com/rddim/FreeTubePortable/releases) [Source](https://github.com/rddim/FreeTubePortable)
 
-### Automated Builds (Nightly / Weekly)
-
-Builds are automatically created from changes to our development branch via [GitHub Actions](https://github.com/FreeTubeApp/FreeTube/actions?query=workflow%3ABuild).
-
-The first build with a green check mark is the latest build.  You will need to have a GitHub account to download these builds.
-
 ## Contributing
 If you have an idea or if you found a bug, please submit a GitHub issue so that
 we can track it.  Please search the existing issues before submitting to
@@ -104,7 +98,7 @@ Bitcoin Address: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS
 
 Monero Address: 48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB
 
-If you enjoy using FreeTube, you're welcome to leave a donation using the following methods.  While your donations are much appreciated, only donate if you really want to.  Donations are used for keeping the website up and running and eventual code signing costs.
+If you enjoy using FreeTube, you're welcome to leave a donation using the following methods. These donations go to the main FreeTube development, not this fork.  While your donations are much appreciated, only donate if you really want to.  Donations are used for keeping the website up and running and eventual code signing costs.
 
 ## License
 [![GNU AGPLv3 Image](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.html)  
