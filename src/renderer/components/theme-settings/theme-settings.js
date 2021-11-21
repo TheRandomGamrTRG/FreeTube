@@ -34,11 +34,13 @@ export default Vue.extend({
       ],
       baseThemeValues: [
         'light',
+        'comfy',
         'dark',
         'black',
         'dracula'
       ],
       colorValues: [
+        'Blurple',
         'Red',
         'Pink',
         'Purple',

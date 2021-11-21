@@ -46,6 +46,30 @@
   --logo-text: url("~../../_icons/textColorSmall.png");
 }
 
+.comfy {
+  --primary-text-color: #f4f4f5;
+  --secondary-text-color: #dcddde;
+  --tertiary-text-color: #dcddde;
+  --primary-input-color: rgba(0, 0, 0, 0.50);
+  --primary-shadow-color: rgba(35,40,61, 0.75);
+  --title-color: #EEEEE;
+  --bg-color: #1e2233;
+  --link-color: var(--accent-color);
+  --link-visited-color: var(--accent-color-visited);
+  --favorite-icon-color: #096dc0;
+  --card-bg-color: #23283d;
+  --secondary-card-bg-color: rgba(35,40,61, 0.75);
+  --scrollbar-color: #23283d;
+  --scrollbar-color-hover: #8a9493;
+  --side-nav-color: #101320;
+  --side-nav-hover-color: #2d3374;
+  --side-nav-active-color: #2d3374;
+  --search-bar-color: #1e2233;
+  --instance-menu-color: var(--search-bar-color);
+  --logo-icon: url("~../../_icons/iconColorSmall.png");
+  --logo-text: url("~../../_icons/textColorSmall.png");
+}
+
 .black {
     --primary-text-color: #EEEEEE;
     --secondary-text-color: #ddd;

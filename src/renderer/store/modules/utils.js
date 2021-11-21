@@ -23,6 +23,7 @@ const state = {
     duration: ''
   },
   colorClasses: [
+    'mainBlurple',
     'mainRed',
     'mainPink',
     'mainPurple',
@@ -48,6 +49,7 @@ const state = {
     'mainDraculaYellow'
   ],
   colorValues: [
+    '#7289da',
     '#d50000',
     '#C51162',
     '#AA00FF',
