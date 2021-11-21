@@ -100,6 +100,7 @@ export default Vue.extend({
     baseThemeNames: function () {
       return [
         this.$t('Settings.Theme Settings.Base Theme.Light'),
+        this.$t('Settings.Theme Settings.Base Theme.Comfy'),
         this.$t('Settings.Theme Settings.Base Theme.Dark'),
         this.$t('Settings.Theme Settings.Base Theme.Black'),
         this.$t('Settings.Theme Settings.Base Theme.Dracula')
@@ -108,6 +109,7 @@ export default Vue.extend({
 
     colorNames: function () {
       return [
+        this.$t('Settings.Theme Settings.Main Color Theme.Comfy'),
         this.$t('Settings.Theme Settings.Main Color Theme.Red'),
         this.$t('Settings.Theme Settings.Main Color Theme.Pink'),
         this.$t('Settings.Theme Settings.Main Color Theme.Purple'),
