@@ -136,11 +136,20 @@
   --logo-text: url("~../../_icons/textDraculaLightSmall.png");
 }
 
+.mainBlurple {
+  --primary-color: #5865f2;
+  --primary-color-hover: #e53935;
+  --primary-color-active: #4752c4;
+  --text-with-main-color: #f4f5fe;
+  --logo-icon-bar-color: url("~../../_icons/iconWhite.png");
+  --logo-text-bar-color: url("~../../_icons/textWhite.png");
+}
+
 .mainRed {
   --primary-color: #f44336;
   --primary-color-hover: #e53935;
   --primary-color-active: #c62828;
-  --text-with-main-color: #FFFFFF;
+  --text-with-main-color: #f4f5fe;
   --logo-icon-bar-color: url("~../../_icons/iconWhite.png");
   --logo-text-bar-color: url("~../../_icons/textWhite.png");
 }
@@ -341,6 +350,20 @@
   --text-with-main-color: #282A36;
   --logo-icon-bar-color: url("~../../_icons/iconDraculaDarkSmall.png");
   --logo-text-bar-color: url("~../../_icons/textDraculaDarkSmall.png");
+}
+
+
+.secBlurple {
+  --accent-color: #5865f2;
+  --accent-color-hover: ##3e47a9;
+  --accent-color-active: #c62828;
+  --accent-color-light: ##8a93f6;
+  --accent-color-visited: #1a1e49;
+  --text-with-accent-color: #f4f5fe;
+  --accent-color-opacity1: rgba(88,101,242,0.04);
+  --accent-color-opacity2: rgba(88,101,242,0.12);
+  --accent-color-opacity3: rgba(88,101,242,0.16);
+  --accent-color-opacity4: rgba(88,101,242,0.24);
 }
 
 .secRed {
