@@ -9,14 +9,14 @@
   "author": {
     "name": "PrestonN",
     "email": "FreeTubeApp@protonmail.com",
-    "url": "https://github.com/FreeTubeApp/FreeTube"
+    "url": "https://github.com/TheRandomGamrTRG/FreeTube"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FreeTubeApp/FreeTube.git"
+    "url": "git+https://github.com/TheRandomGamrTRG/FreeTube.git"
   },
   "bugs": {
-    "url": "https://github.com/FreeTubeApp/FreeTube/issues"
+    "url": "https://github.com/TheRandomGamrTRG/FreeTube/issues"
   },
   "scripts": {
     "build": "run-s rebuild:electron pack build-release",
