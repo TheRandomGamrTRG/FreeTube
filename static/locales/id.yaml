@@ -101,11 +101,13 @@ User Playlists:
   Playlist Message: Halaman ini tidak mencerminkan playlist yang berfungsi sepenuhnya.
     Ini hanya mencantumkan video yang telah Anda simpan atau favorit. Setelah selesai,
     semua video yang ada di sini akan dipindahkan ke daftar putar 'Favorit'.
+  Search bar placeholder: Cari di Daftar Putar
 History:
   # On History Page
   History: 'Riwayat'
   Watch History: 'Riwayat Tontonan'
   Your history list is currently empty.: 'Daftar riwayat Anda kosong.'
+  Search bar placeholder: Cari di Riwayat
 Settings:
   # On Settings Page
   Settings: 'Pengaturan'
@@ -146,6 +148,10 @@ Settings:
       Open Link: Buka link
       Ask Before Opening Link: Tanya sebelum membuka link
       No Action: Tidak ada
+    The currently set default instance is $: Instans default yang saat ini disetel
+      adalah $
+    No default instance has been set: Tidak ada instans default yang disetel
+    Set Current Instance as Default: Tetapkan Instans Saat Ini sebagai Default
   Theme Settings:
     Theme Settings: 'Pengaturan Tema'
     Match Top Bar with Main Color: 'Samakan Bilah Atas dengan Warna Utama'
@@ -760,3 +766,6 @@ Search Bar:
 External link opening has been disabled in the general settings: Pembukaan link eksternal
   telah dimatikan pada pengaturan umum
 Are you sure you want to open this link?: Yakin ingin membuka link ini?
+Default Invidious instance has been set to $: Situs Invidious baku telah di atur ke
+  $
+Default Invidious instance has been cleared: Situs Invidious baku telah dikosongkan
